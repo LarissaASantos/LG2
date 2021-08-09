@@ -1,0 +1,27 @@
+package projeto3;
+
+public class Disciplina {
+
+	String nomeDisc;
+	String periodo;
+	double cargaHoraria;
+	
+	public String getNomeDisc() {
+		return nomeDisc;
+	}
+	public String getPeriodo() {
+		return periodo;
+	}
+	public double getCargaHoraria() {
+		return cargaHoraria;
+	}
+	public void setNomeDisc(String nomeDisc) {
+		this.nomeDisc = nomeDisc;
+	}
+	public void setPeriodo(String periodo) {
+		this.periodo = periodo;
+	}
+	public void setCargaHoraria(double cargaHdisc) {
+		this.cargaHoraria = cargaHoraria;
+	}
+}
