@@ -78,9 +78,9 @@ public class Endereco {
 	            }else {
 	                 return  true;
 	            }
-	            public  int Buscarendereco () {			        
-			        this.Buscarend  =  this.Buscarendereco() +  1 ;
-			        return  this.Buscarendereco();
+	            public  int Buscarend () {			        
+			        this.Buscarend  =  this.Buscarend() +  1 ;
+			        return  this.Buscarend();
 	    }
 
 }
