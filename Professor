@@ -1,0 +1,55 @@
+package projeto3;
+
+public class Professor {
+
+	String idProfessor;
+	String nome;
+	double cargaHoraria;
+	int rg;
+	int cpf;
+	String endereco;
+	float salario;
+	public String getIdProfessor() {
+		return idProfessor;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public double getCargaHoraria() {
+		return cargaHoraria;
+	}
+	public int getRg() {
+		return rg;
+	}
+	public int getCpf() {
+		return cpf;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public float getSalario() {
+		return salario;
+	}
+	public void setIdProfessor(String idProfessor) {
+		this.idProfessor = idProfessor;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public void setCargaHoraria(double cargaHoraria) {
+		this.cargaHoraria = cargaHoraria;
+	}
+	public void setRg(int rg) {
+		this.rg = rg;
+	}
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public void setSalario(float salario) {
+		this.salario = salario;
+	}
+	
+}
