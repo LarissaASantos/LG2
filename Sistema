@@ -1,0 +1,24 @@
+package projeto3;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Professor prof = new Professor ();
+		prof.nome = "Antonio";
+		
+		class Disciplina extends Professor {
+			Disciplina nomeDisc;
+		}
+		
+		class Disciplina extends Professor{
+			Disciplina periodo;
+		}
+		
+		class Professor extends Disciplina{
+			Professor cargaHoraria;
+		}
+	}
+
+}
