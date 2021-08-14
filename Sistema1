@@ -1,0 +1,24 @@
+package projeto3;
+
+public class Sistema1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Coordenador coord = new Coordenador ();
+		coord.nomeCoord = "Beletti";
+		
+		Professor prof = new Professor ();
+		prof.nome = "Antonio";
+		
+		class Professor extends Coordenador {
+			Professor nomeDisciplinas;
+		}
+		
+		class Coordenador extends Professor {
+			Coordenador idCoordenador;
+		}
+				
+	}
+
+}
