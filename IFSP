@@ -1,0 +1,63 @@
+package projeto3;
+
+public class IFSP {
+	
+	int idInstituto;
+	int qtdFuncionarios;
+	int qtdAlunos;
+	String nomeAlunos;
+	String endereçoIFSP;
+	int enadeAlunos;
+	int matriculaAlunos;
+	String hescolarAlunos;
+	
+	
+	public int getIdInstituto() {
+		return idInstituto;
+	}
+	public int getQtdFuncionarios() {
+		return qtdFuncionarios;
+	}
+	public int getQtdAlunos() {
+		return qtdAlunos;
+	}
+	public String getNomeAlunos() {
+		return nomeAlunos;
+	}
+	public String getEndereçoIFSP() {
+		return endereçoIFSP;
+	}
+	public int getEnadeAlunos() {
+		return enadeAlunos;
+	}
+	public int getMatriculaAlunos() {
+		return matriculaAlunos;
+	}
+	public String getHescolarAlunos() {
+		return hescolarAlunos;
+	}
+	public void setIdInstituto(int idInstituto) {
+		this.idInstituto = idInstituto;
+	}
+	public void setQtdFuncionarios(int qtdFuncionarios) {
+		this.qtdFuncionarios = qtdFuncionarios;
+	}
+	public void setQtdAlunos(int qtdAlunos) {
+		this.qtdAlunos = qtdAlunos;
+	}
+	public void setNomeAlunos(String nomeAlunos) {
+		this.nomeAlunos = nomeAlunos;
+	}
+	public void setEndereçoIFSP(String endereçoIFSP) {
+		this.endereçoIFSP = endereçoIFSP;
+	}
+	public void setEnadeAlunos(int enadeAlunos) {
+		this.enadeAlunos = enadeAlunos;
+	}
+	public void setMatriculaAlunos(int matriculaAlunos) {
+		this.matriculaAlunos = matriculaAlunos;
+	}
+	public void setHescolarAlunos(String hescolarAlunos) {
+		this.hescolarAlunos = hescolarAlunos;
+	}
+}
