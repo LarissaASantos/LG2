@@ -1,0 +1,63 @@
+package projeto3;
+
+public class Alunos2 {
+	
+	int idAluno;
+	String nomeAluno;
+	String matriculaAluno;
+	int rgAluno;
+	int cpfAluno;
+	String enderecoAluno;
+	int enadeAlunos;
+	String hescolarAlunos;
+	
+	public int getIdAluno() {
+		return idAluno;
+	}
+	public String getNomeAluno() {
+		return nomeAluno;
+	}
+	public String getMatriculaAluno() {
+		return matriculaAluno;
+	}
+	public int getRgAluno() {
+		return rgAluno;
+	}
+	public int getCpfAluno() {
+		return cpfAluno;
+	}
+	public String getEnderecoAluno() {
+		return enderecoAluno;
+	}
+	public int getEnadeAlunos() {
+		return enadeAlunos;
+	}
+	public String getHescolarAlunos() {
+		return hescolarAlunos;
+	}
+	public void setIdAluno(int idAluno) {
+		this.idAluno = idAluno;
+	}
+	public void setNomeAluno(String nomeAluno) {
+		this.nomeAluno = nomeAluno;
+	}
+	public void setMatriculaAluno(String matriculaAluno) {
+		this.matriculaAluno = matriculaAluno;
+	}
+	public void setRgAluno(int rgAluno) {
+		this.rgAluno = rgAluno;
+	}
+	public void setCpfAluno(int cpfAluno) {
+		this.cpfAluno = cpfAluno;
+	}
+	public void setEnderecoAluno(String enderecoAluno) {
+		this.enderecoAluno = enderecoAluno;
+	}
+	public void setEnadeAlunos(int enadeAlunos) {
+		this.enadeAlunos = enadeAlunos;
+	}
+	public void setHescolarAlunos(String hescolarAlunos) {
+		this.hescolarAlunos = hescolarAlunos;
+	}
+	
+}
