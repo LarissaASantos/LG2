@@ -1,0 +1,24 @@
+package projeto3;
+
+public class Sistema2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ProfessorTads tads = new ProfessorTads ();
+		tads.nomeCertificacoes = "Microsoft Azure";
+		
+		ProfessorEngenharia eng = new ProfessorEngenharia ();
+		eng.numeroCrea = "000000000-1";
+		
+		class ProfessorTads extends Professor {
+			ProfessorTads nomeCertificacoes;
+		}
+		
+		class ProfessorEngenharia extends Professor {
+			ProfessorEngenharia numeroCrea;
+		}
+
+	}
+
+}
