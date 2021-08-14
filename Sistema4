@@ -1,0 +1,24 @@
+package projeto3;
+
+public class Sistema4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		IFSP ifsp = new IFSP ();
+		 ifsp.enadeAlunos = 5;
+		
+		Alunos2 aluno = new Alunos2 ();
+		aluno.matriculaAluno = "SP1372564";
+		
+		class Alunos2 extends IFSP {
+			Alunos2 enadeAlunos;
+		}
+		
+		class IFSP extends Alunos2 {
+			IFSP hescolarAlunos; ;
+		}
+
+	}
+
+}
