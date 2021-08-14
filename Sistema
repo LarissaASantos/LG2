@@ -8,6 +8,9 @@ public class Sistema {
 		Professor prof = new Professor ();
 		prof.nome = "Antonio";
 		
+		Disciplina disc = new Disciplina ();
+		disc.nomeDisc = "LG2A2";
+		
 		class Disciplina extends Professor {
 			Disciplina nomeDisc;
 		}
@@ -22,3 +25,4 @@ public class Sistema {
 	}
 
 }
+
